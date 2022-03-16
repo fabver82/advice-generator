@@ -2,6 +2,44 @@
   font-family: "Manrope";
   src: url("https://fonts.google.com/specimen/Manrope");
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.quote-container {
+  max-width: 90vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  background-color: #323a49;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.quote-container__title {
+  color: #52ffa8;
+  font-size: 0.5rem;
+}
+.quote-container__quote {
+  color: white;
+  text-align: center;
+}
+.quote-container__button {
+  padding: 1rem;
+  background-color: #52ffa8;
+  border-radius: 50%;
+  position: relative;
+  bottom: -2rem;
+}
+.quote-container__dice {
+  vertical-align: middle;
+}
+
 *,
 *::before,
 *::after {
@@ -15,6 +53,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Manrope";
   font-weight: 800;
+  background-color: #1f2632;
 }
 
 /*# sourceMappingURL=style.css.map */

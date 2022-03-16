@@ -1,4 +1,5 @@
 @import "variables";
+@import 'container';
 
 *,
 *::before,
@@ -13,5 +14,5 @@ html {
   scroll-behavior: smooth;
   font-family: 'Manrope';
   font-weight: 800;
-  
+  background-color: $darkblue;
 }

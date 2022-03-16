@@ -1,0 +1,42 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    min-height:100vh;
+}
+.quote-container{
+    max-width:90vw;
+    margin:auto;
+    border-radius: 0.5rem;
+    background-color: $darkgrayblue; 
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+
+    &__title{
+        color:$neongreen;
+        font-size: 0.5rem;
+    }
+    &__quote{
+        color:white;
+        text-align: center;
+    }
+    &__divider{
+
+    }
+    &__button{
+        padding: 1rem;
+        background-color: $neongreen;
+        border-radius: 50%;
+        position:relative;
+        bottom:-2rem;
+    }
+    &__dice{
+        vertical-align: middle;
+
+    }
+}
