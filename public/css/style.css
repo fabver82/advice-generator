@@ -43,6 +43,9 @@
   position: relative;
   bottom: -1.7rem;
 }
+.quote-container__button:hover {
+  box-shadow: 0 0 50px 10px #52ffa8;
+}
 .quote-container__dice {
   vertical-align: middle;
   width: 1.2em;

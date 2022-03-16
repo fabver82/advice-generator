@@ -38,12 +38,13 @@
         border-radius: 50%;
         position:relative;
         bottom:-1.7rem;
+        &:hover{
+            box-shadow:  0 0 50px 10px  $neongreen;
+        }
     }
     &__dice{
         vertical-align: middle;
         width:1.2em;
     }
 }
-.button{
-    
-}
+

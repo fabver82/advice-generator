@@ -1,7 +1,6 @@
 let button = document.getElementById('button');
 let quoteField = document.querySelector('.quote');
 let quoteIdField = document.querySelector('.quote-id');
-console.log(quoteField);
 
 const randomQuote = async function(){
     return await fetch('https://api.adviceslip.com/advice')
@@ -11,8 +10,8 @@ const randomQuote = async function(){
 button.addEventListener('click',async ()=>{
 
     await randomQuote().then((quote)=>{
-        console.log(quoteIdField);
+        // console.log(quote);
         quoteIdField.textContent = `ADVICE #${quote.slip.id}`;
-        quoteField.textContent = quote.slip.advice;
+        quoteField.textContent = `"${quote.slip.advice}"`;
     })
 })
