@@ -1,12 +1,10 @@
 .container{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    min-height:100vh;
+    margin-top:4.28rem;
 }
 .quote-container{
-    max-width:90vw;
-    margin:auto;
+    margin:15px;
+    margin-top:0px;
+    margin-bottom:0px;
     border-radius: 0.5rem;
     background-color: $darkgrayblue; 
     
@@ -14,29 +12,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:1rem;
-    padding:1rem;
+    padding-left:0.75rem;
+    padding-right:0.75rem;
+    padding-bottom:0;
 
     &__title{
+        padding-top:1rem;
+        padding-bottom:1rem;
         color:$neongreen;
         font-size: 0.5rem;
+        line-height: 0.6rem;
+        letter-spacing: 0.33em;
     }
     &__quote{
-        color:white;
+        color:$lightcyan;
         text-align: center;
+        line-height: 1.2rem;
     }
     &__divider{
-
+        padding-top:1.7rem;
     }
     &__button{
         padding: 1rem;
         background-color: $neongreen;
         border-radius: 50%;
         position:relative;
-        bottom:-2rem;
+        bottom:-1.7rem;
     }
     &__dice{
         vertical-align: middle;
-
+        width:1.2em;
     }
+}
+.button{
+    
 }

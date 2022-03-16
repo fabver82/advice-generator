@@ -1,43 +1,51 @@
 @font-face {
   font-family: "Manrope";
-  src: url("https://fonts.google.com/specimen/Manrope");
+  src: url("../../public/fonts/Manrope-ExtraBold.ttf");
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+  margin-top: 4.28rem;
 }
 
 .quote-container {
-  max-width: 90vw;
-  margin: auto;
+  margin: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-radius: 0.5rem;
   background-color: #323a49;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0;
 }
 .quote-container__title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #52ffa8;
   font-size: 0.5rem;
+  line-height: 0.6rem;
+  letter-spacing: 0.33em;
 }
 .quote-container__quote {
-  color: white;
+  color: #cee3e9;
   text-align: center;
+  line-height: 1.2rem;
+}
+.quote-container__divider {
+  padding-top: 1.7rem;
 }
 .quote-container__button {
   padding: 1rem;
   background-color: #52ffa8;
   border-radius: 50%;
   position: relative;
-  bottom: -2rem;
+  bottom: -1.7rem;
 }
 .quote-container__dice {
   vertical-align: middle;
+  width: 1.2em;
 }
 
 *,
