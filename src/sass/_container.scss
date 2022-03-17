@@ -49,6 +49,7 @@
         border-radius: 50%;
         position:relative;
         bottom:-1.7rem;
+        cursor: pointer;
         &:hover{
             box-shadow:  0 0 50px 10px  $neongreen;
         }
@@ -58,4 +59,20 @@
         width:1.2em;
     }
 }
+.attribution { 
+    font-size: 0.5rem;
+    text-align: center;
+    color:$lightcyan;
+    position:absolute;
+    bottom:5%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    a{
+        color: $neongreen;
+
+    }
+}
+
+
 

@@ -55,6 +55,7 @@
   border-radius: 50%;
   position: relative;
   bottom: -1.7rem;
+  cursor: pointer;
 }
 .quote-container__button:hover {
   box-shadow: 0 0 50px 10px #52ffa8;
@@ -62,6 +63,19 @@
 .quote-container__dice {
   vertical-align: middle;
   width: 1.2em;
+}
+
+.attribution {
+  font-size: 0.5rem;
+  text-align: center;
+  color: #cee3e9;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.attribution a {
+  color: #52ffa8;
 }
 
 *,
