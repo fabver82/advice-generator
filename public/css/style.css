@@ -48,6 +48,7 @@
 }
 .quote-container__divider {
   padding-top: 1.7rem;
+  max-width: 444px;
 }
 .quote-container__button {
   padding: 1rem;
