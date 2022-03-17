@@ -3,8 +3,15 @@ let quoteField = document.querySelector('.quote');
 let quoteIdField = document.querySelector('.quote-id');
 
 const randomQuote = async function(){
-    return await fetch('https://api.adviceslip.com/advice')
-    .then(quote=>quote.json());
+    try{
+        let reponse =  await fetch('https://api.adviceslip.com/advice');
+        let quote = await reponse.json();
+        return quote;
+    }
+    catch(err){
+        console.error(err);
+    }
+    
 }
 
 button.addEventListener('click',async ()=>{
